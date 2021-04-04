@@ -299,7 +299,7 @@ abstract class StepViewIndicator extends View {
     mCompletedLinePaint = new Paint();
     mNotCompletedLinePaint.setAntiAlias(true);
     mNotCompletedLinePaint.setColor(mNotCompletedLineColor);
-    mNotCompletedLinePaint.setStyle(Paint.Style.STROKE);
+    mNotCompletedLinePaint.setStyle(Paint.Style.FILL);
     mNotCompletedLinePaint.setStrokeWidth(2);
 
     mCompletedLinePaint.setAntiAlias(true);
